@@ -1,7 +1,19 @@
+class WelcomeProto
+{
+	public void display(String msg)
+	{
+		//String msg= this.msg;
+		System.out.println("The message is \n "+msg);
+	}
+}
+
 class Welcome
 {
 	public static void main(String args[])
 	{
-		System.out.println("Welcome to java");
+		String message ="Hi Learners \n Welcome to Java";
+		
+		WelcomeProto wp =new WelcomeProto();
+		wp.display(message);
 	}
 }
