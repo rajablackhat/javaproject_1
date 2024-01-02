@@ -11,7 +11,7 @@ class Welcome
 {
 	public static void main(String args[])
 	{
-		String message ="Hi Learners \n Welcome to Java";
+		String message ="Hi Learners,  \n \t Welcome to Java";
 		
 		WelcomeProto wp =new WelcomeProto();
 		wp.display(message);
