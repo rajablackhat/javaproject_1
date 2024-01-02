@@ -7,7 +7,7 @@ class WelcomeProto
 	}
 	public void greetingMessages(String msgs, String user)
 	{
-			System.out.println("Hi "+user+"\n "=msgs);
+			System.out.println("Hi "+user+"\n "+msgs);
 	}
 	
 }
@@ -18,9 +18,9 @@ class Welcome
 	{
 
 		String message ="\n Welcome to Java";
-		String member = "Raja"
-
+		String member = "Raja";
 		WelcomeProto wp =new WelcomeProto();
 		wp.display(message);
+		wp.greetingMessages(message,member);
 	}
 }
