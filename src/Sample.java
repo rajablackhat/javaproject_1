@@ -1,4 +1,6 @@
 public class PrimeExample{    
+
+
  public static void main(String args[]){    
   int i,m=0,flag=0;      
   int n=3;//it is the number to be checked    
@@ -15,5 +17,7 @@ public class PrimeExample{
    }      
    if(flag==0)  { System.out.println(n+" is prime number"); }  
   }//end of else  
+
+  
 }    
 }   
