@@ -3,7 +3,7 @@ class WelcomeProto
 	public void display(String msg)
 	{
 		//String msg= this.msg;
-		System.out.println("The msg is \n Hello Learners "+msg);
+		System.out.println("The message is \n Hello Learners "+msg);
 	}
 	public void greetingMessages(String msgs, String user)
 	{
