@@ -7,7 +7,7 @@ class WelcomeProto
 	}
 	public void greetingMessages(String msgs, String user)
 	{
-			System.out.println("Hi "+user+"\n "+msgs);
+			System.out.println("Hello "+user+"\n "+msgs);
 	}
 	
 }
