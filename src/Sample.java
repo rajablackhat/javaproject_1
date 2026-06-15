@@ -4,7 +4,7 @@ public class PrimeExample{
   int n=3;//it is the no to be checked    
   m=n/2;      
   if(n==0||n==1){  
-   System.out.println(n+" is not prime number");      
+   System.out.println(n+" is not prime no");      
   }else{  
    for(i=2;i<=m;i++){      
     if(n%i==0){      
